@@ -14,7 +14,7 @@
 // }
 
 // my_sql method
-$con = mysqli_connect('67.225.171.70','mikesiko_main@localhost','stpaulsFTW10#','mikesiko_test');
+$con = mysqli_connect('localhost','root@localhost','','tourney_db');
 if(!$con){
 	echo "Could not conncet";
 	exit;
